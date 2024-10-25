@@ -15,6 +15,10 @@ export default function DigitalClock () {
       
     },[]);
 
+    useEffect (() => {
+      document.title = `Digital Clock: ${formatTime()}`;
+    }, [time]);
+
     function formatTime() {
         let hours = time.getHours();
         const minutes = time.getMinutes();

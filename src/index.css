@@ -26,3 +26,10 @@ body {
  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 75%);
  text-align: center;
 }
+
+@media (max-width: 800px) {
+  
+  .clock {
+    font-size: 3rem;
+  }
+}
